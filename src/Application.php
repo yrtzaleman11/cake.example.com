@@ -136,7 +136,7 @@ $this->addPlugin(\CakeDC\Users\Plugin::class);
         }
 
         $this->addPlugin('Migrations');
-
+        $this->addPlugin('Authentication');
         // Load more plugins here
     }
 }
