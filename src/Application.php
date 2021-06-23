@@ -65,7 +65,9 @@ class Application extends BaseApplication
         }
 
         // Load more plugins here
-    }
+    
+$this->addPlugin(\CakeDC\Users\Plugin::class);
+}
 
     /**
      * Setup the middleware queue your application will use.
